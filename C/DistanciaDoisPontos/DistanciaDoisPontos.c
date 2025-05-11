@@ -3,18 +3,11 @@
 int main()
 {
     double xa,ya,xb,yb;
+    char p;
     
-    //primeiro ponto
-    printf("x1: ");
-    scanf("%lf", &xa);
-    printf("y1: ");
-    scanf("%lf", &ya);
-    
-    //segundo ponto
-    printf("x2: ");
-    scanf("%lf", &xb);
-    printf("y2: ");
-    scanf("%lf", &yb);
+    //coordenadas
+    printf("exemplo: (x,y) (x,y)\ncoordenadas: ");
+    scanf("%c %lf %c %lf %c %c %lf %c %lf %c", &p, &xa, &p, &ya, &p, &p, &xb, &p, &yb, &p);
     
     //matematics
     xa = (xa - xb) * (xa - xb);
