@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void anal(int n){
+void analise(int n){
     if (n%2 == 0){
         printf("The number is even\n");}
     else{
@@ -9,10 +9,10 @@ void anal(int n){
 
 void main()
 {
-    int x = 1, y;
+    int y = 1;
 
-    while( x == 1){
+    while( x != NULL){
         printf("number: ");
         scanf("%d", &y);
-        anal(y);
+        analise(y);
     }}
