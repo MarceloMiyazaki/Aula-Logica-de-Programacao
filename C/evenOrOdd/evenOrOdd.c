@@ -11,7 +11,7 @@ void main()
 {
     int y = 1;
 
-    while( x != NULL){
+    while( y != NULL){
         printf("number: ");
         scanf("%d", &y);
         analise(y);
