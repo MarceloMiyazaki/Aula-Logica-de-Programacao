@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1748864728 source:c:\users\marcelo.miyazaki\desktop\soma_produtos_mercado\main.c
+	<stdio.h>
+	<stdlib.h>
+
