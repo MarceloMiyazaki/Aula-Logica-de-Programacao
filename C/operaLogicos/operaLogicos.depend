@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1745842350 source:d:\c\operalogicos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<locale.h>
+
