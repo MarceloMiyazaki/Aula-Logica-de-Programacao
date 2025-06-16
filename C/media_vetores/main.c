@@ -4,7 +4,7 @@
 int main()
 {
     int i;
-    double v[10], v1[10], v2[10], avg;
+    double v[10], avg;
 
     for(i==0;i<10;i++){
         printf("Nota do aluno %d: ", i);
@@ -12,6 +12,6 @@ int main()
         avg += vet[i];
     }
     avg /= 10;
-
+    printf("%lf", avg);
     return 0;
 }
