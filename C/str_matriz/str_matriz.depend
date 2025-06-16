@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1749471931 source:c:\users\marcelo.miyazaki\downloads\str_matriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
